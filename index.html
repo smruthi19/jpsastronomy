@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Site Metas -->
+<title>JPS-Astronomy Club-Designed by Smruthi S</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- ALL VERSION CSS -->
+<link rel="stylesheet" href="css/versions.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+
+<script src="js/modernizr.custom.79639.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<head>
+  <meta name="google-signin-scope" content="profile email">
+  <meta name="google-signin-client_id" content="363164972149-572pldahjsdh80m53tj02cjt37rm36eg.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <!-- <script  type="module" src="server.js"></script> -->
+</head>
+<body>
+  <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+  <script>
+    function onSignIn(googleUser) {
+      // Useful data for your client-side scripts:
+      var profile = googleUser.getBasicProfile();
+      console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+      console.log('Full Name: ' + profile.getName());
+      console.log('Given Name: ' + profile.getGivenName());
+      console.log('Family Name: ' + profile.getFamilyName());
+      console.log("Image URL: " + profile.getImageUrl());
+      console.log("Email: " + profile.getEmail());
+
+      // The ID token you need to pass to your backend:
+      var id_token = googleUser.getAuthResponse().id_token;
+      console.log("ID Token: " + id_token);
+    }
+
+
+
+  </script>
+</body>
+<!-- <script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="129658108284-g9rlmb52d33n148it855535pv0pp4p28.apps.googleusercontent.com">
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+<script>
+function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+
+function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+
+</script>
+
+<a href="#" onclick="GoogleAuth.signOut();">Sign out</a>
+
+<script>
+  function GoogleAuth.signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
+
+
+</head> -->
+<body class="seo_version">
+
+  <!-- LOADER -->
+  <div id="preloader">
+    <div class="loader-wrapper">
+      <div class="loader-new">
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+      </div>
+      <div class="text">LOAD...</div>
+    </div>
+  </div>
+  <!-- END LOADER -->
+
+  <!-- Start header -->
+  <header class="top-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <!-- <img src="C:\temp\org.fbla\greatseo-master\images\logo.jpg" width="120" height="120" alt="" /> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-seo" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbars-seo">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="calendar.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">Newsletters</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Gallery </a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                <a class="dropdown-item" href="gallery.html">Meetings</a>
+                <a class="dropdown-item" href="gallery.html">Events</a>
+                <a class="dropdown-item" href="gallery.html">Other</a>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="pricing.html">Resources</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End header -->
+
+  <div id="slider" class="sl-slider-wrapper">
+
+    <div class="sl-slider">
+
+      <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+        <div class="sl-slide-inner">
+          <div class="bg-img bg-img-1"></div>
+          <img src="galaxy.jpg" width="150" height="40" alt="">
+          <h2>JPS Astronomy Club</h2>
+          <blockquote><p></p>
+            <a href="file:///C:/temp/org.fbla/greatseo-master/contact.html" class="bttn-new">Join Today</a>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+        <div class="sl-slide-inner">
+          <div class="bg-img bg-img-2"></div>
+          <h2>JPS Astronomy Club</h2>
+          <blockquote><p> </p>
+            <a href="file:///C:/temp/org.fbla/greatseo-master/contact.html" class="bttn-new">Join Today</a>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+        <div class="sl-slide-inner">
+          <div class="bg-img bg-img-3"></div>
+          <h2>JPS Astronomy Club</h2>
+          <blockquote><p></p>
+            <a href="file:///C:/temp/org.fbla/greatseo-master/contact.html" class="bttn-new">Join Today</a>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+        <div class="sl-slide-inner">
+          <div class="bg-img bg-img-4"></div>
+          <h2>JPS Astronomy Club</h2>
+          <blockquote><p></p>
+            <a href="file:///C:/temp/org.fbla/greatseo-master/contact.html" class="bttn-new">Join Today</a>
+          </blockquote>
+        </div>
+      </div>
+    </div><!-- /sl-slider -->
+
+    <nav id="nav-dots" class="nav-dots">
+      <span class="nav-dot-current"></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </nav>
+
+  </div><!-- /slider-wrapper -->
+
+  <div id="about" class="section wb nopadtop">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m40">
+          <div class="message-box">
+            <h4>JPS Astronomy Club</h4>
+            <h2>What Is JPS Astronomy Club?</h2>
+            <p>JPS Astronomy Club is a a group where students can build and apply their knowledge of astronomy through regular meetings, experiments, speaker events, research projects and competitions! Our goal is to work as a team to learn about the wonders of our world through fun activities, discussions and exciting events!
+              </p>
+
+
+
+          </div><!-- end messagebox -->
+        </div><!-- end col -->
+
+        <div class="col-md-6">
+          <div class="post-media wow fadeIn">
+            <img src="astronomy.jpg" alt="" class="img-fluid">
+          </div><!-- end media -->
+        </div><!-- end col -->
+
+      </div><!-- end row -->
+
+      <div class="Upcoming Events>
+        <div class="col-md-12">
+          <ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
+            <li class="nav-item"><a class="nav-link active" href="#tab_a" data-toggle="tab">Upcoming Events</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab_a">
+              <div class="box-inner-m">
+              <font size= "5" color="black"<p>First Meeting-October 24th </p></font>
+              <!-- <font size= "5" color="black"<p>MSIP Introductory Meeting-October 20th </p></font> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="hr1">
+
+      <div id="Areas of focus" class="section lb">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="section-title text-center">
+              <h3>Areas of Focus</h3>
+
+            </div>
+            <div class="row text-center">
+              <div class="owl-services-seo owl-carousel owl-theme">
+                <div class="text-center">
+                  <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                      <img src="http://images.clipartpanda.com/research-clipart-cliparti1_research-clip-art_03.jpg" alt="" class="img-fluid img-rounded">
+                    </div>
+                    <h3>Research</h3>
+                    <p>Opportunities to collaborate with a team to take part in Mars Imaging projects using data from NASA to conduct research! </p>
+                  </div> <!-- end service -->
+                </div> <!-- end col -->
+
+                <div class="text-center">
+                  <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                      <img src="data:image/png;base64,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" alt="" class="img-fluid img-rounded">
+                    </div>
+                    <h3>Astronomy-related events</h3>
+                    <p>Ranging from exciting observatory nights, launching weather balloons, stargazing nights, and science fairs, our events are filled with exploring beyond boundaries and having a great time! </p>
+                  </div><!-- end service -->
+                </div><!-- end col -->
+
+                <div class="text-center">
+                  <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMQEhUTExIWFhUXGBcZFhgWFxgWFhUYFxcYFxgYGBoYHSggHhomGxseIjEhJSkrLi4uGiAzODMtNygtLisBCgoKDg0OGxAQGy0mICYtLS0tLS0vLS0tLS0tLS0tLS0tLS0vLS0tLS0tLS0tKy8tLS0vLSstLS0tLy0tLS0tLf/AABEIAQkAvgMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAgYHAQQFAwj/xABFEAABAwEFBQUEBwUIAQUAAAABAAIDEQQSITHwBQZBUWEHEyJxgRQykaEjQlJicoKxM5KiwdEkRHOTssLh8VMVNENU4v/EABoBAQACAwEAAAAAAAAAAAAAAAABBAIDBQb/xAA2EQACAQIEAwcDBAICAgMAAAAAAQIDEQQhMfASQVEFE2FxgZGxItHhFDKhwSPxQlNykhUzUv/aAAwDAQACEQMRAD8AvFACAEAIAQAgBACACUBp7W2pFZIzLM8MYOJzJ5ADEnoFjKairs3UKFSvPgpq7ONtTfmxQQNmEzZQ8Hu2xkOc+meH1aca0plngsKlaMFdljCdnV8TU4IK1tW9Ec6btQsAgbMx7nucDSICkjSMw/g2h41NeFVjPEQgrm7C9k4jEVOFKyWrenp13ew8Habs91nbN3hvOr9CBWUOGYIyHRxIB5qZV4RV2Y0OysTWqcEV6vJb8jqbN3ysU9nZaRaGMY6oo9wa9rh7zC2tbw5CtRQioIKz7yKV2yusHWlUdOEW34HXsFtjnjZLE8PjeA5rhkQf0PQ4hZJ3V0V5wcJOMtUbCkxBACAEAIAQAgBACAEAIAQAgBACASaVrGlziA1oJcTgAAKknpRQ3ZXZlGLlJRirt6EP3m7QrLBZy+zzRTSuN1jWuDrp4ukANQAOBpU0HUaa1ZQhdHS7O7Mnia/dzuktX/RWe3e0m07QhFnexkQJIlMZP0nIUOLW8xU1wx51a9dyhZHd7K7Mp0a7lPN6Lw5e5FI9ozShscs0j2sqGB73ODK5htThl8lqrSckX+zaEKc2oqzep4bLgc4G60uwPugnh0WNZpPMnBzjCLu7ZM2bLsi0Brv7PNkafRv5eSwnUg5LNe5hh69KNOX1K9nzXQI9lWhjHEwSg04xvGeHJJVISks0TRr04UZPiV7deuRqtYY2uJBDsqEUNT5rN/VJI2UX3dBzXkvNm9s/bdpgg7tlolZGCSGNe5rbzs8AcuNPNZyqSb4UzTSwtCnF1pwTfir58tSa7t9qs1msrIpIRK6MEd66QgltfCCLuJAwrXGgW/8AVONopHL/APg41XKrOdlrp+S0d3d67Pa7NFP3sbC9oLmOe0Fjhg5uNDg4HGmIoVbU42vc89PC1FNxUW/Q7yzK4IAQAgBACAEAIAQAgBACA19oWxkET5ZDRkbXOcejRU06qG7K7M6dN1JqEdW7FD7x9pdrtUb7O5kTI3kGsYeHlla3SS4jMCpAFadVQlXdSnY9ZQ7Kp4TFKV72zV/n0IhDZXvlpGwuLsQGivn8+KrcS4Pqeh06zjRrcbyTz+5M9kdnkj3X5n3AcbrcXdanIY8qrS6rcbJerOZiO1YQrOVHP78/5JbYN0bJB4hE0mtS5/ix5+LL0WDu19T/AKOXPH15ybTtfodOsTBgBThRpI+NKLFRhyRVbm9WebtoRj/tg/Vyzt4EeoDaMZ4H+F3+klOEZ9TMoglFHhpB4SNpX0eBVY8MV4GSlNaM4+09xrJOMGGM5gxmg/d935LOMpRd0/ctx7SrpKMndLru5Dtv7h2mIDuvpYxibuD/AN3j6EnHJbIVEneWp1I9qU6yjTf09ejZFLTVn0Ywdk7mOnmtkVd8TOnVnwx7qnq1m/D8/Bau7nas9os8E8LTUxRGS+Q41LWGQtu06nJXKeJcpcNjz2M7EhRpOq558lbX+f5LeVw84CAEAIAQAgBACAEAIDiby71WXZwYbTIW363QGOeTdpX3QaZjNYSnGLszfSw1WrFygrpWv66fB8872bQ9utMtqGbnkjn3YwYPMNAXNlUbm76M9pSwkY4aHAvqgs/7/n+De3Z3Wk2gA7FkYPv0zHEN/r+uSrynwStHNmvGY+nGkk/3LT8lqbK2NBY2BrGgcycXE8+a1WSd5Zveh56viqtd/Uz1ZaHy/sm1H2yaM9DjX8oI6hZWb1y+Svkj2ZsyuMjy48m+AfGpd/EpUUhxM92WKNuIjbXmRU/E4qTE9hhkhIj2g5gHzFVANZ9hjP1Q3q2rD/DRLg1jYnsxjf8Aldh82inxaVFkZcXUaK24hsjS1xyrx8qVB9CTzATNCy5Gjt7daz20XnANkp4ZW59LwycPPHkQsk8si1hMbUw07pXXNPeRU+3d3prJKROBQ4tePcc0fZPTlmPVbuJJWieiwlWOLvVb018Px06+ZIuzzfR1ntbRPPILNdc03nPe0Op4TdFaYimA4qxQnwP62Ue08MsRC2HprJ62Sb30L12ftCK0NvwyMkblVjg4A0rQ0yNDkVejJSV0zy9ahUoy4akWn4qxsrI1AgBACAEAIAQGjtvaIssEs5F4RtLqVpWmQrwqVjOXDFyN2GoOvVjSWrdj583y3wftOdrnxd01jLgjv38ySXXroxNRw4Bc6vPvLSR7DszD/o1KjU5vPyNncbdF1pf3j/2Dcub+nkPn8aValTi+la8/AwxmLeCbjTd3y8PPx/2WpK+OzMDWigFGta0Yk5AADM4YAcuAGGCjbJb8WeabcndiwbPdJ4p/SOtWj8ZHvHp7o65rNJIhs6aGIpKgkUlCTBKgCkqAKUJMEqAeU0bXgtcAQeBS5JpX32fGpfFxrUvZ1PFzevvDje4Ss9NQbdtsUNshMcjQ+N1Dwq00wc0jI44EZ9QVshKxEZSpy4ovMpjerYj9ny91S8HYxyUwc3y+0OI4YcwtnDxZvQ9ZhO0I1aS7pfVzvy8uvgyUdmG+sezo5IrQxxY+S/3gIN0lrW0LTTDw1qDXorNLERh9NvYo4/sitiL1uL/2+5eLHAgEZEVHqr55MZACAEAIAQAgKZ7W97bUJprCy4IQI79GkyOqxkmZNKVPAVwVKtW+p02el7N7N/xQxcXd53XTNohO6+xjtCZseNG0LnDg2uVev9TwVGbdPJczrYzGU1R4pfu5b6F1u7uxwgAUa0AAAZ5AAAZkmgA4kgLCMbKy13meSlN1JOUhdnWN1e+lH0hybmImn6o5uP1ncchgAsslkjFs6CggUlQSKSgMEqCRSVAFKEmCVAFJQkUlQBSUBz7/ALK6+P2JPjHCIk+8OTCc/snxZXlmnfz+Q0bW8ex2W2zuYQK5sJFbrhkf5U8wtkXc2YXEyw1VVI+3VFEWuwSB7mS5tJB5Dy6dVs41DQ9ZCnLFxVSTun7L7F8dnG/DtpX4pIwJImgufH+zIJoMDiHeVRgcsl0KFWU1mrHle1MBSwsl3c+K/Lp66MnC3nKBACAEAIDkb222Sz2OeWIgPYwuaSLwFMzTjhVYVJOMW0WsFShVrwhU0bsfNW0rdPLK6aZ5ke8gufhjQACoGAoABTouZKSqvPU9pSozwUVGP7Vo/v0Ln3B2ELLZg5zQJJPE/p09MvSvFVoZ/U/TyPN9pYrv6zcVkbtn/tExkP7OJxbGODpBUPf+TFg+93nRZ6FHQ6qggUlQSYJQCkqCRSVAFKEmCVAFJQkUlQBSUApKgkVwrgUB5bCn7p5s7jhS9ETxZUC75sJDfJ0fVbk75+5hJEI7Wdg3ZGTt919Q7kHDXzPJbFLhOz2RUdV9xJ5arp4kd3O3pfsuUuiIeH3RJHSveAE3QCMnYmlOeRW6lUqJ5I6OOweDqU/8ks1o1n+H7n0mwkgVFDTEZ0PJdM8QxkAIAQAgKq7b7baGCGJkzo4pWvvNbhfLC2ocRjdo4YZdCqmJqShboz0HYmEpV1KTdpxat03kV9uPsx89sjjI8IN5xzFG5fOmHKq51bhlGy1eR2cZWrYajLi55X5F1bfnMUN2PB7i1kfGjnENaacm+8ejHLKy05HkFm7seyWdsTGxt91gDRXE0HEniTmSsG7mR6EqAYJQCkqCRSVAFKEmCVAFJQkUlQBSUApKgkUlQDBKEmjtWrWiVoJdEb4Azc0AiRg6uYSB1ungsqbzs+YaOlvHs9tusT24Oq28wji5oqCPMVH5lZVzXSn3dRSRQQuxO94hzTgW1qCDgQeBqpTm80e0X6Xhzd78rX/B9D9mu3prfYxLM2hDiwPy70NoC+gwGNR5tOS6dGUnH6jxvaNOhTrtUL28eXgSpbSgCAEAID557UjaH7QlZLMXBh+iacGNjeA5t0DCtCATmSMclzq9SSm1JZHsuy8JSlh41KMrSazT6reRIexjZ5rNK7hRo48P/wBfJVMpVFbkvkp9tTqR4aU/PfsTK3nvLaxuFIWOkI4hz6xRn4d+PVZvJM4kdDeJWokwSgFJUEikqAKUJMEqAKShIpKgCkoBSVBIpKgGCUJFJUAUlCTa3MfSJ0WH0L3RinBraGMekTo1ci759f8ATNFRFM762FlmtszCD7xIAH1T7vyoptLkeq7Nq0Xh053v5E+7ENtyyGSyhpdBG2+HOw7pz3YMHMON40+648Vdwrno9DldtxwzanTupPW61XvyLaVs8+CAEBh1aGmB4cfkgXifL28kc7rVMbRKXTh7g+/zaaUbTJvIAUpSi5U6kuL60e8w2EpKknh55PPP8FvdkNmu2EE5uc6vo4gfJaadnKTXh8fk872vxLEcMnmjesD79otTqZPjjrzAhbN+sxSeiKK0N8lYEmCVAFJUAUoSYJUAUlCRSVAFJQCkqCRSVAMEoSKSoApKEikqAem68lLVOzm2F/mXiRh+UDVapftXqv7NVVEA7Yomx20OIPjY04dBd/2rY075Hd7FqwVOSmm8+Q3Y5teRlt7iJrnRytJlbhRgblLWuFCQ3repyVnDd4peBPbP6WdG+aktMtfDUvdXzygIAQHlag8scIyA+6bhcKtDqeEkDMV4KHe2RlDh4lxac7dD5b2tBKZ5TPI4zX3d5fHivg0cDQ0z5Yclyp1JX+pZnvaGEpqmu5qfTyyLR3O3ug2fY4YpbxcWl9W0pQkjj1aVro6y8/6R5jtKlL9RJXudvYE4k9ocP/sOafOOOOM/6VjPl5FSx1SVgBSVAFKEmCVAFJQkUlQBSUApKgkUlQDBKEikqAKShIpKgCkqCTRi23HY7U98ladyxxpyEkkf6yj5q1R09f6Nc4t6EN7S9vRWyWOWNri0MDMaA1DnOPycFuabeTOx2LJU+Lijcx2S7UfHtBjIY3uEoLZWgYBgx7wmtBdNDXqQMXBbsOpqfVFntaWFqYd3vGSzX29T6BXRPHggBALJWhu0vUNK5V4VpwQlWvmfL28NlmFpm9pkPf33d5eH1ia4Y+7TKmFKUwXKqTlxPiWZ7vC4aj3UXSqfTbLL8m3a4a2azGtfBKyv4ZXH9Hhaab+qXp8HD7RhwV2r30z9CytyZa+0jnMJR5TRRvHzqonyOaySErAgUqCTBKgCkoSKSoApKAUlQSKSoBglCRSVAFJQkUlQBSVBIpKAhO+BvSTdIoI/V0rpf0YrVH9q839iOZELa+4xgu1qXHOnILa1d6nb7JnwKTcb3t/ZL+xq3ubb7kcby17CJaDBgGLXk8PEKfm4lWcMpqXgR2zLDVKHSazSfPqt9C+FfPJggBACA+dO0uwzt2hM+0uILzWOg8HdDwsDSTwAoetea5teU1PNHsuy6NCWHThUfiraP3PHYzA+yuaCSYpQ7Hg2VtMOl5g+Kq3fHd818FXtalGE4uLvdEx3NmuTNH/lhDfz2dxAH+U8H0Uy03zONImhWogwSoApKEikqAKSgFJUEikqAYJQkUlQBSUJFJUAUlQSKSgMKCSC7Ud3l9//AJJXOHVkY7qM+tHK7FWsui/JiRXa091926CAAOWJxP6rPhT5no+zpSpUM43Tz8em8iyuwm0uLrS1rHd2QwlxHha9uF29xJa6tOnVXMKpq6ehze3ZYeajKDtJZNeG/kt1XDzgIAQAgKi7cdlzyOhnP/to2lvhFSx73CpfyBo0A8x1FamK4lZpZHoew40JcUZTal06re9SB7ozMZP3VTSZpjqTgHEgsNPxgD1K58+Jq/Q6vaNCj3D4LtrPP+SWWcOj8TR44nCVo4m6CJGDq6MkeiXPMsnsMzXta9pq1wBaRxBFQfgtTyMTJKgkUlQBSUApKgkUlQDBKEikqAKShIpKgCkqCRSUBglQSaG17QWRkM995DI/xOwr6CrvRZ01eWehDI3b2NYMPcY0Nb5NFK+pqfVWU+bJpwc5KMeZA5rW6pLxUEk9QtnAn+09bCrKhBQqK8V6Pe7n0J2VNe3ZsTXxvZQvuh7S0lrnl4dQ408WHkulQUlC0jyHa0qU8S5UndO3xoS5bjmggBACA4O/WzJrXYZoIHAPeAMTSrQ4FzQeBIFMcMeGawqKTi+HUs4OVKNaLqtqPgfONqsvsshY9jmysOIfUOaRiMPmCuW1O9nke4hLCcPFH6k+uf8AGnuWTsq2C1RMtLKVOEg+zK33hTkfe8nLS48P0s8piKfd1HFacvI7Ow5u6d3B901fD5Zvj82nEdD0WMs1c0HZJWAFJQCkqCRSVAMEoSKSoApKEikqAKSoJFJQGCVBIqA5Ne9eZfqtqyLrXB8n+0ep4qxGPCre/wDSMWyJb5WnDumHEYupmNf1W2LS1Ot2XhJVL1Vy+Tlbq2eee0xCOF8rmPY4ljahoa4GrzkBhmaLdCm27wOnicZCNN08TzTSf3X2Pp1dU8ICAEAIAQAgKP7Utz5oZpre6ksT3AuNaGKt2NjXNJxHutqK+QVHEU6jd1oeo7JxeDVNU5J8Xjo/L8kc3L3h7ia4+vcSUa+mUZ+rJ6cRxBOeCpygksy7j6U8bH/HHOOnl06eRZtpsF4Xa0NQ5rm5tcMWvadVC05pnmUzYsNsL6seAJG+8BkRwe37p+RwKhrmtCTZJWIFJUAwShIpKgCkoSKSoApKgkUlAYJUEikoDTlBmJjbUNGEjh/oaftHieA6kLZBWzfp9yGzw3ht7LHDeNAaUY0dMMByC2wTbMqVN1JqKKotjnPf3gJJccCMa14LfFp/S0er/T9xFSovLrv+UXX2QbAtNkZaH2mExGXurrSWkm53lSQ0mnvDA4q/h6Uqd7nmu2MfSxapuCzV79M7aFiKycQEAIAQAgBAcnenYTNoWZ9me4ta+6atocWuDhUHMVAwwWM48UbXN+GrKjVU3G9uTPnzfPYUmzrR7MXNfVge0sBALXFwFQcjVp4nzXNnR7t3kz2WG7SeLhalG3giSbh71iJrbLani7lFIco6/wDxuP2OR4ZZZaZLj0KPaXZrgu9i7y/5JfK8evX5sC27NElCDde3FrhmD/TmDgfmK+cWcNO5qR2kg3JRddkD9R/4a5H7px5VGKa5ok2CViSKSoApKEikqAKSoJFJQGCVBIjjRAecMT5zRlWs4vyLh9zkPvfCuYzUba69PuYtm3tGeGwQ3nUAA8LRm48h/M9eJOOaTbJp051ZKEFdlPbb2062SuMmFfcHADgNfqrPDwq6PT4DD06SdKS+p8/63r7Hf7PtxrRa3NnDo2wNlAcHl191y643AG040qSOPJWadHvEpFPGdofopSo2vdezeSZ9AroHkQQAgBACAEAIAQEf3k3NstvN6ZrhJdDRIxxa4NBJAxq04k5g5rVUowqfuL+D7SxGFTjTeT1Vtv8Ak+c7ZYDFK9stRce5tDgTdJAJ6LnTfC+GJ7DDQdWmq1bR526/glO6O/UkBEUgvxDI8YxwHVvTh5Ci1zguHM5+LwH6mo50Uk9XyX4b/n3ZZdjttntrKsc14IxGBPqDmNZqvKDTOFOEqb4ZI8pLDJH7hvN+y6pp5HFw9b3osb9f4+xHkeXtIHvAt88W/vCo+JS19B5jteDkQfLFYvIkwSoJFKA85JQ3MgeZRJvQChznGjWknrVvypeI6gKeHqLm5Z9kXqGU1+7TAflxHqSfRZLwy+TFs0d497YLC0gUfJ9kGtD948+mfOi2Qptm2jh6lbNLLqVNvBtia1PEr3k8WjgOlPlTz6rfBLOLPSU8HHDRjOk7vW+/5R2dw9027WmcHOcyNrLznMpeDqgBoJBGOJyyC34em3JxfI09r4qMKEatPWT9ra78S+N3tjR2GBkEZc5ra+J9C5xc4uJN0AceXBX4QUFwo8nisTPE1HUqau38Kx0lmVwQAgBACAEAIAQHhbrWyCN8shoyNrnuPJrQSfkEZMU5OyPmC12h1p9qts1Q6Z7qcaVOAaeNMGjo3oudUnxTSR24J05RhG+Wtjme2NpdYD6jEla+6le8j0P62koqnST9dWbtjtT7N4muLX54GlOWXHqtf73loZ1cNTVK1VXk/wCPD7k32J2kSMa32lgePtDB1OfX4eq1ypq9kcet2RJU1Ug9eT6EwsO9NitIB7wNJ+2LpH5hgPitUqbObOhWpq8k7M6AsEMuLCD1bdd8yCfmozRpv1Qrtjjg4/x/yeEuLoX/ANFHF59BX/WXKbi4Ogs8GL5A38Tmsr5hl0H4Jmwr8kcq3b7WOCrYzfIxusF0etf1AKlU2WqOCr13aKIRtnf60WkObH9E3k3Mg8zn/LHJbe7UbHVwnZUHxd47tcuRE43l4cHGpGNTyOvmtksmmjqYZJ05Uuma8n+fk17LbWtwcKgOBHEUr4vTitkqTbTRReMSo1Ka1/4/39ycdnG0v/T9qMaTSG1NEZ4NDnUuEcD4wBXk8rfh6lzz1WEqlD/x3vyPoFXTlggBACAEAIAQAgBAV72y7Uc2ysskf7S0vDaDO40gnLm4tHUXgq+IqcMbHV7Kw/HN1JaRW/7Kk3sswgEdmb9Roc7zNaV/iOH2ieK51FttyZ08NS7ziqdSMhpaajMZFWbpqzNyjKEuKOq3v8DskJcL7iRx6rFxy+lGyFVuonWk2uZ7mfvXBraj+QWHB3cbstuv+qqqnBW+x62h1XBregHRYwVlxM3YmSnNUoeSPeS2Pa4Bj3DEAY+ixgsrs14qhSnUUIxXJaehuP2/aQ8NbO8AkDA8KqIxXC2zVWwOH75RjDJtdeos227Q54aZnkE5E1UpLgbJ/RYdV4xUcr+JpmdxkALiRjhXDI8Ea+g3UqUIYmKjFLX4Z5RGktOYI+X9VMs4XM6cksUo9b79zxZaQ2Q8qEE66rNwbgVoYmFPEO+lmma4kdUkYVBHoVs4VZJlNVajnKccrpr03/JhkSlyIhRJNDZjNZL7a95AcxmAADUGvKmI+yOSqufBU8zSqSp4jhekt78z6G3S2x7bZIZ/rOaL9OD2+F4pyvA+lF16cuKKZ5/F0HQrSpvl8cjrrMrggBACAEAIAQAgKohtDNobWtFpkcBZ7GwtaTSlW3hXqK3316NXJxUuOf8AB6R3w+AjRivqqO/vbL4RWe2LV7TNJKcL7iQDwH1R6NoPRal9OR6Kjh4QpRguS/nqc99nWamRPDGu+BbFMqSob3v2PExEa1qiz4kVnSazW9/YWIlhqKV+NKqZJSVmYUpSoy4oa737dTe2LZ3SyFzjg0Ek8vh6n0K11bKNkYLGzo1FVl9T5Zkt3A3Gk2q2S0CXumMlDGXm3rwoS/IjFoLOhJIwW9YfihZGiXa86NdTqK/Oyyz5dTS3v3bNg2kILzjG5rXxOIxcCKGtBnfDhhX6vNYVqShCyJw/atSUu/kr25LL7kWtBfHKa0q0mnKnA+op8VCjFwsb6eKqyqKtz/g8QCTWuPPWs1OVrEpScuNvPrvaz6HoyFYuRthQe979T3jgWDmWoYe5sMgWtzLccOkSns/lYLU2J9Lk3gNcr31a+eLfzLXOLkUu1aK7jjjrHP05/f0J72aTGx2u1bNecj3kR5igr6lhaafdcr+ElrE4va7WIo08UulnvzuWWrx58EAIAQAgBACAj2/u2/YbDNKDR5FyPnffgCPwirvJpWFSVolnCUu9qqL01fkimn2r2TZwhbhJaDV/O71H4Q1v5nclx0uOo7aI9DF97ieN6R0353ZFwVtcTrxrGQda1ksHEsRqmcCsbNGy8ZHm+EFSpGqVBPQ8HwLYplaeH3vfsdyaxmz2NoHv2gigGJLTSlOJwph94c1rjLjq+Rx5Q7ys+kd78j6B3O2ILBY4bPhVjfHTjI7xPNeV4mnSi7EVZWPO1qneVHIiXbbsMzWVlqYPpLM6ppn3byAcuTg09BeWuurxLfZ0l3nA+ZU23bJ3jIrQMQ8XT5ipx+BHoVy6c7Nw6HbwVNqUqT5b36nKZB0WbmdaGH8N73mezIgNa1RYOTZajRjHe92HqosZOaWhgnWtZrNRNMqu971COUtIc00c0ggjMEGoI61HyWaiVqlRSTTJ1trbf0li2pGPE262UNxr9ptfIvZjzasaDcKjj0OJTp/RUwz0em/Zl32eZsjWvYQWuAc0jIhwqCPRdc86007M9EIBACAEAIAQFQ9q+0ParbDYmmrIhflAp77hWhHMR5dZQqeLqcMW93OtgYcFN1OuS35/BX+3rT3kzgPdZ4RywwPz48aDmq2Hp8NNX55nRpXjE5x1rXFbnEsKpbe93DPWteSwcTfGrfe9+QA61rJYOJvhV573+BrywcSxGsdTdjZntlpih4Od4jyY3xPPwB9Vg1YxxWLVKhKfO2Xny35lhbP2e227aoADDYxXD3S9pwHn3nyjK3YSn9RwKr/T9nXf7qnx/r5LXXVPNnhbbK2aN8TxVj2ua4cw4UPyUNXVjKEnCSktUUtsDYJkFs2a+nexXjHXC9QihH3a3T5PXEqQcZnrMRWjTlSxcP2vXfv7EDfhhShrQjl0WSidyVVWyMXlmomiVYXWtc1moleVTe96gSs1E0SqhTWtZLJI0yqXO3sSQyxSWY8RebXIEZ55C9Q+pPBVsQuCUai8mVartJTLY7HtsmexmB5+ks7rlDn3bqmOo4U8TPyLp0pXicnH0+GrxLnmTxbSiCAEAIAQGvtC2MgikmkNGRtc9x6NBJ/RQ3bMyjFykormUDZbW4stNvl/aSvdc40LnZCvAOIHP6PDJcmu3UqKHq9+R33BJxpLRb35kWpjr446yVosWz3vaAILGNU1rNLC7W97uZOv6+fn/JRY2KYU1r+fRYOJujU3vehLNzrQLJDPbD7wb3cXnh8i66K8mnmq1XOagiripd/ONLlq9+Vyy+yPZBgsXfPr3loPeEn3izER1PGoq7866eHhwxv1OV2tiO8rcC0jl9/t6E4W85YICr+0VhsG0LNtFgIY/wCjmpxoKY8yY60/wgqOKp3zXM7mAn3+Gnh3qs1vz+SAb9WMR2t7m4Ml+kbyq4+MY/eqacnKtRfFHyOjhK7lRUW81lvfUj5GtazW9RNkqm971D0/rrz6LJI0ud0GtfL5KTG7e97sGta5oLGxs609zI1/Bpxwzbk4U8q4HBYVIccXExcbpre/yTvde2+wbVjdWkNqFwnhecRdPn3l3HlITxWOCqZWfLL7FKvDvaD6x3vyLsXSOKCAEAIAQFedsm1S2CKyR/tLS8Aj7jSMMMcXlo6gOC015qMTo9nUk5uo9I/O7lb74ObEIbKzKJgLuriCBXr7xP4jzXNw15XqPmdOir3m+ZG1bN4a1rkhBgGmtapzQjQZo1/XXNCUt73qYDK4AVOQHGpyHn/zyS5i8tSVDZjp57Ns9jj4iC8jCgxL3eYaHux+7yVXCx7yTm+bNHfcClVe95H0FDEGNDWgBrQA0DIACgA9F1zz7bbux0IBAcHfnYvt1imhA8dL8f8AiM8TR6+6ejisJx4o2LGFrdzVUvfyKKmlNpsbXHF0JpU53MOfSh82nmuUv8de3KW9+Z3P21GuTOI3WtcFbNqMa1y/6QaGB/LWvNAt73zM61rmhIa1rkoJsSVjRadn4ftLMa4YG5TPmBd4/cHJVP8A66/hL5/38mj9lXwe9+ZeG5u2fbbHDOfeLaSUwpI3wvw4C8CR0IXXhLiVzhYil3VRx3bkdpZGgEAIAQFL2m2i3bUtFrcfoLK0sYeFGXhUEcK948cfE1crG1L/AErnkd2FN0qEYc5Z++0QC3WwzSPldm9xPkOAHQAAegWyMVGKii/GPDFLoeAOtaz5rMkHDWtZoQ0AOsta5IQY1lrVFItve9Ds7q2UPmvu9yIXjXgSDdr8Cfynmq2KlaHCtWaKrsrFg9j2zzNNaLe8YV7qKvDJz/gLja/jV3DU+CNuhz+0J8MY0l5vfuWqrJywQAgBAUfvFs72LassRH0NpHeM/PUkfv3m0+8xczG08rrlmduhPvKCfNZb9LEHtlmMUjoz9U/I4tPSoIPr0WyEuOKkXYO6ueI1hr4eayM0t73qY1rX6qBve/kyBrWskMlEL2ta+CgHd3LtojtIY6lyUXDXKpxbX1qPzuWjEw4oX6GnEQvC65Z7+Se9lVqNktdp2e73Se9irxoAD5ksunD7DlbwtXij5nP7Qhx041l5PfnctRWzkAgBARztB237FYZZA6j3Du4ud94IBH4RV35VhUlwxLWDo97WUXpq/JbsVFbmexbNjhpSS0G+/gQzA0+F1pHV648frrOXJb+53Yf5a7lyjv7siPHWtdFbLXPe9+AU1/1rJSQ0Gv8AjXLqhFjGta5qTHe99TOvXXD+iDe9/BJpWGzbPYwA99aXZAVJaaUA/LcFObwqq/yV78o/JVX1VG+SLy3U2OLFZIbOM2NF4ji8+J5/eJXWirKxwa9XvKjlu3I6yyNQIAQAgK/7ZNkGSystLP2lmeHVGdxxAd8HXXV4AFaq0bxOh2fV4anA9H87uitN6oxLHBamjB7br+jhU5DqHiv3aLmYd8LlTfLf2OpRyk4PkRwnWv1/qrRZ3vfyGta5KCVve+QHX9dc+iE23vfsA561/wAqCUue9/kzGSKEYEGoIzBBwIpxrx6dUZKXJ73vUnG1Le5vsW1Yx4mOaJQOhN5vkfGyvJzVWw0nTm4dM9+hRhTvx4eXPT7/AAy8LLaGysbIw3mPaHNIyLXCoI9Cuyszzsk4uzPVCAQFU9odo9u2lBYRjHCO8m5VIDiD+S6B1lVDGVeFb1O3gIdzh5Vnq8lvz+CCb6bR9otT6GrI/o2U+7W8Rz8VfQBV6EeGC9zpYalwUlfnnvfycLWtc1uN9t73qZ1rX6IRbe9+xga/41yUmO976ANa180Ft737m/sPZ3tM8cXBx8X4BUuy6AjDmsKk+CLkaqsuCLlvf5J/u3ZPb9rg0rDYxXLAvaaNHQ95U8volOCp2Sfr9jnYiXc4a3OXx/r5LgXSOICAEAIAQHja7M2WN8bxVj2ua4c2uFCPgUauTGTi01yKM2bs539r2ZIfHG5xjJGZaRR3lW4783muPiF3dRT9GehlNPgrrR7/AB6ELpTClDl68deSsl5IxrWuJ5KCbb3v2A61rihNszOta/VQTYwNa1wQlJEv3McLRDaLC8jxtL465B2APwdddT8Sq1/pkqiKmKXBKNVeu/csPsf2uZbI6zvr3lmcWEHO44ktr5EOb+ULqUJ8UTk9qUVCrxrSWfrz+5PFvOYa20ra2zxSTPNGxsc93k0VNOqhuyuzOnB1JqEdXkUpsm2Ojs9r2lIfpp3OEfm53D7odhTKkfRcStLvKij6s9NVpp1IYeOi135fyyDDWtDJWS/ve7adAprWam44TFNa1mhjbe96mRrWuKm5CRimtayQxsS3dhgs1ltFtNL1O7irxOFfMF90fkPNVq31zjT9WU8R9dSNNeb35FldkexvZ7CJXD6S0HvCTncyjFeV3xebyurRjaJx+0avHWcVpHL7k3W0oAgBACAEAICqe1SyeyWyzbQaPA4iOamVQDQnqY73+W3kqeLpcUfM7HZ8u8pyo+q35/JB99tnCG0lzaXJR3jTwqff/i8X5uiqYefFC3Q6WFnxU7PVZHAprWvit1y0lve/cwda1wQm2970M61rkoJSCmtazQytve9Tc2RbzZp45R9R1TzLcQ8dTdJ9VhOPFFowqUlUg4dd756lh2C0iwbXjlBHcWwXSRleeRj+/cNTwkPMqMFVtk/I5dSHf4Nx/wCUN/F/ZFvLrHnive2Dabu5isUeMloeKj7jSKA+by390qriqnDGx2ex6K45VpaRX8/6/ogW/c7Yu5scZ8MLAXdXEUFet2p/OuZQV7zfM6uBi5cVaXP438ETOta4qwX2jBUmLXINa1yUkW3vehg61r5oYtDMiLyGtFXOIa0cy40A9T/NTexhJJK73v7k82pszvZrFsqMm6KOlI5UJc7zuh7uVXN5LRhY95JzfM5kKjhCeIfpv2LtjjDQGtFAAAAMgBgAF2Tzzd8xkIBACAEAIAQHD312L7dYpoR75bej/wARniZ6Eih6ErCceKNixha3dVVP38inJB7ZssOoTLZHUPO4Bj8G4+cZ5rjL/HW8JHoLd3iLcpfP+yI0p6616K1cvJW3vdjOta/RQZpb3v2DWtc0Jtve9Q1rX6qCUjOta5KDO2970JhF/bdlloxlshqOfdipHpcJp+Doqz+ir4M57/w4tPlP5/38lwbl7Z9tscM1fEW3ZP8AEb4XeVSK+RC7dOfFFM83jaHcV5Q5cvI6stkjc4OdG1zhk4tBI8icVk4p6orqckrJmnaNgWSQlz7LA8nMuijcT6kLHu4dEbY4mtFWjNr1Z4O3TsB/uVn/AMmMfoE7uHRGX6zEf9kvdnk/czZ5/ucPowD9FHdQ6GX67E//ALfuVVv/ALgvsJdPBV9mJqRm+GvBx4srk45ZHmatWi45rQ72A7RjXXBPKfz+fD26EGprWslpudPhJNuDYg+d0z6BkDS8k5AkENJ6ABx/L1WivJqPCuZRx07QUFrJ7/pE47JbEbRNadovGL3GOOvAYOd50FxtejlfwlPhjv1OX2pNU4woLlm/6/ss5XDiggBACAEAIAQAgKgt9kFg2xJGR9DbBeA4Fzyat5Vv3mgcL7VysbT5rzPQU5d/hFLnDfxb2K+2xYDZ55IT9R1B1acWn1aQfXoohPiimdejPvIKXU1A2poBicKDiTw/481kbWrb3u5bW4fZq0Dv7cwOc4eCA5MB+tJzdybkOp921Soc5HAx3ajb4KD8318vvz8tZo3c7Z4/uUHrG0/qFv7qHQ5jx2If/N+56t3VsI/uVm/yYz/tTu4dER+sxH/ZL3Zt2XY9nir3dniZUUNyNjajkaDJO7h0RrnXqz/dJvzbNiz2dkYoxjWjOjQGivOgWSVjCUnLNu56qTEEAIAQGHtBBBFQcCDiCDwKBOxTvaH2eGC9abI0mLEyRDExc3MHFnMZt8vdp1qNs4npezu01UtTrPPk+vn4+PPz15E7DZdmxwtH01rdWnEg0wA8rjaffXNj/kq35I3q1XEub0hv7v0Lm3Z2SLHZYbOPqMAcR9Z5xe71cSV3IR4YpHmsTWdarKb57R1FkaAQAgBACAEAIAQEE7X9kGWyNtDP2lmcHg8bhoHfA3XeTStGIhxRudXsmsoVu7lpLLf8r1IBvbZjbI7La4mFzpQInNaC438aADmHXx6DouRRvGTp+x2MHJUZzpTemefTdmTzs93AbYw2e0AOtBHhbgWw9BwL+bshkOJPWpUeHN6nJ7Q7Sdb/AB0/2/P48PcnysHIBACAEAIAQAgBACAEAICL7Q3NZLb4LXe8MVSYiPDeFSxzeRDjU+Q5KusNCM+KJfp4+UMPKjbXnvw+SUKwUAQAgBACAEAIAQAgPK0wNkY6N4q17S1wORa4UI+Chq+RlGTi1Jao4G5W6o2dDcMhkcXOdUigaDQUaOGAFeZrlVaaeHjB8XMt43GvEz4rWRJFvKQIAQAgBACAEAIAQAgBACAEAIAQAgBACAEAIAQAgBACAEAIAQAgBACA/9k=" alt="" class="img-fluid img-rounded">
+                    </div>
+                    <h3>Academic Competitions</h3>
+                    <p>Opportunities to exhibit your knowledge through astronomy competitions!</p>
+                  </div><!-- end service -->
+                </div><!-- end col -->
+
+                <div class="text-center">
+                  <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                      <img src="http://img.clipartlook.com/newsletter-clipart-image-newsletter-clip-art-372_309.gif" alt="" class="img-fluid img-rounded">
+                    </div>
+                    <h3>Newsletters</h3>
+                    <p>Opportunities to publish articles for our club's newsletter and partake as editors on the newsletter team! </p>
+                  </div><!-- end service -->
+                </div><!-- end col -->
+
+                <div class="text-center">
+                  <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                      <img src="http://clipart-library.com/img/994299.jpg" alt="" class="img-fluid img-rounded">
+                    </div>
+                    <h3>Learning</h3>
+                    <p>A great way to build our knowledge through interactive speaker events, experiments and discussions! </p>
+                  </div><!-- end service -->
+                </div><!-- end col -->
+
+                <div class="text-center">
+                  <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                      <img src="http://rekreo-playnlearn.com/images/school_icons4.png?crc=150659559" alt="" class="img-fluid img-rounded">
+                    </div>
+                    <h3>Field Trips</h3>
+                    <p>A chance to attend exciting and fun field trips to learn more!</p>
+                  </div><!-- end service -->
+                </div><!-- end col -->
+              </div><!-- end col -->
+            </div><!-- end row -->
+          </div><!-- end container -->
+        </div><!-- end section -->
+
+        <div class="parallax section lb">
+          <div class="container">
+            <div class="row text-center stat-wrap">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-rocket"></i></span>
+                <p class="stat_count">3706</p>
+                <h3>Discovered Planets</h3>
+              </div><!-- end col -->
+
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-happy"></i></span>
+                <p class="stat_count">56</p>
+                <h3>Mars Missions</h3>
+              </div><!-- end col -->
+
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-folder"></i></span>
+                <p class="stat_count">166</p>
+                <h3>Nasa Rockets Launched</h3>
+              </div><!-- end col -->
+
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-list"></i></span>
+                <p class="stat_count">1886</p>
+                <h3>Satellites orbiting the Earth</h3>
+              </div><!-- end col -->
+            </div><!-- end row -->
+          </div><!-- end container -->
+        </div><!-- end section -->
+
+
+
+
+
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="widget clearfix">
+                  <div class="widget-title">
+                    <img src="logo.jpg" width="120" height="120 alt="">
+                  </div>
+
+                </div><!-- end clearfix -->
+              </div><!-- end col -->
+
+              <div class="col-lg-2 col-md-6 col-xs-12">
+                <div class="widget clearfix">
+                  <div class="widget-title">
+                    <h3>Information</h3>
+                  </div>
+                  <ul class="footer-links">
+                    <li><a href="file:///C:/temp/org.fbla/greatseo-master/index.html">Home</a></li>
+                    <li><a href="file:///C:/temp/org.fbla/greatseo-master/calendar.html">About Us</a></li>
+                    <li><a href="file:///C:/temp/org.fbla/greatseo-master/about.html">Newsletters</a></li>
+                    <li><a href="file:///C:/temp/org.fbla/greatseo-master/gallery.html">Gallery</a></li>
+                    <li><a href="file:///C:/temp/org.fbla/greatseo-master/pricing.html">Resources</a></li>
+                    <li><a href="file:///C:/temp/org.fbla/greatseo-master/contact.html">Contact</a></li>
+                  </ul><!-- end links -->
+                </div><!-- end clearfix -->
+              </div><!-- end col -->
+
+
+
+
+
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                      <div class="widget clearfix">
+                        <div class="widget-title">
+                          <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                          <li><a href="mailto:#">jpsastronomyclub@gmail.com</a></li>
+                          <li>855 Grove Avenue, Edison, Nj, 08820</li>
+
+
+
+                        </div><!-- end row -->
+                      </div><!-- end container -->
+                    </footer><!-- end footer -->
+
+                    <div class="copyrights">
+                      <div class="container">
+                        <div class="footer-distributed">
+                          <div class="footer-left">
+                            <p class="footer-company-name">All Rights Reserved. &copy; 2019 <a href="#">JPS-Astronomy</a> Design By : Smruthi S</p>
+                          </div>
+                        </div>
+                      </div><!-- end container -->
+                    </div><!-- end copyrights -->
+
+                    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+                    <!-- ALL JS FILES -->
+                    <script src="js/all.js"></script>
+                    <!-- ALL PLUGINS -->
+                    <script src="js/tippy.all.min.js"></script>
+                    <script src="js/custom.js"></script>
+
+                    <script src="js/jquery.ba-cond.min.js"></script>
+                    <script src="js/jquery.slitslider.js"></script>
+                    <script type="text/javascript">
+                    $(function() {
+
+                      var Page = (function() {
+
+                        var $nav = $( '#nav-dots > span' ),
+                        slitslider = $( '#slider' ).slitslider( {
+                          onBeforeChange : function( slide, pos ) {
+
+                            $nav.removeClass( 'nav-dot-current' );
+                            $nav.eq( pos ).addClass( 'nav-dot-current' );
+
+                          }
+                        } ),
+
+                        init = function() {
+
+                          initEvents();
+
+                        },
+                        initEvents = function() {
+
+                          $nav.each( function( i ) {
+
+                            $( this ).on( 'click', function( event ) {
+
+                              var $dot = $( this );
+
+                              if( !slitslider.isActive() ) {
+
+                                $nav.removeClass( 'nav-dot-current' );
+                                $dot.addClass( 'nav-dot-current' );
+
+                              }
+
+                              slitslider.jump( i + 1 );
+                              return false;
+
+                            } );
+
+                          } );
+
+                        };
+
+                        return { init : init };
+
+                      })();
+
+                      Page.init();
+
+                    });
+                    </script>
+
+                    <script>
+                    tippy('.btn-a')
+                    </script>
+
+
+                  </body>
+                  </html>
